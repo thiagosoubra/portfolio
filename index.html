@@ -113,6 +113,10 @@
 <script type="text/javascript" src="scripts/gridify.min.js"></script>
 <script type="text/javascript" src="scripts/jquery.min.js"></script>
 <script type="text/javascript">
+	$(window).load(function(){
+	$('#loader').fadeOut(500);
+	$('#content').fadeIn(500);
+});
 window.onload = function() {
 	gridify.init();
 };
