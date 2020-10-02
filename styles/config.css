@@ -14,6 +14,7 @@
     line-height: calc(100vh + 110px);
     letter-spacing: 5px;
     font-size: 12px;
+	cursor: progress;
 }
 body {
 	margin: 0;
@@ -21,7 +22,9 @@ body {
 	font-family: CircularRegular;
 	background-color: #363636;
 }
-
+#content {
+	display: none;
+}
 @font-face {
     font-family: 'CircularRegular';
     src: url('../fonts/CircularStd-Book.eot');
